@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tbl>
+  <app>ConGenerator</app>
+  <type>Lang_File</type>
+  <creator>TheBITLINK</creator>
+  <description>
+    Idioma español (es-ES) para ConGenerator (Special Folders)
+  </description>
+  <version>1.0</version>
+  <cgversion>2.0</cgversion>
+  <data>
+    <langcode>es-ES</langcode>
+    <langname>Español</langname>
+    <mesages>
+      <apptitle>Special Folders</apptitle>
+      <managetitle>Administrar Carpetas Especiales</managetitle>
+      <newtitle>Nuevo</newtitle>
+      <manage>Administrar</manage>
+      <destination>Destino: </destination>
+      <actualfolder>Carpeta Actual: </actualfolder>
+      <create>Crear</create>
+      <cancel>Cancelar</cancel>
+      <newnotes>Notas:
+ -Las carpetas especiales pueden tener cualquier nombre, puedes usar
+símbolos como : \ / * @ " etc. También puedes usar "con" como nombre
+ -Puedes tener varias Carpetas Especiales con el mismo nombre.
+ -El @ No puede ir al principio del nombre, pero si después.
+      </newnotes>
+      <noat>
+ -El @ No puede ir al principio del nombre, pero si después.
+ </noat>
+      <name>Nombre</name>
+      <actions>Acciones</actions>
+      <id>ID</id>
+      <new>Nueva Carpeta Especial</new>
+      <help>Ayuda</help>
+      <settings>Opciones</settings>
+      <change>Cambiar...</change>
+      <updates>Actualizaciones</updates>
+      <noupdates>No hay Actualizaciones Disponibles.</noupdates>
+      <updatesab>Hay actualizaciones Disponibles</updatesab>
+      <updatenow>Actualizar Ahora</updatenow>
+      <web>Visitar cg.thebitlink.com</web>
+      <shell>Shell</shell>
+      <rc_options>Mostrar opciones de SpecialFolders al hacer clic derecho sobre un espacio vacio en una carpeta.</rc_options>
+      <rc_extend>Mostrar las opciones solo al mantener Shift oprimido.</rc_extend>
+      <lang>Idioma</lang>
+      <rename>Renombrar</rename>
+      <rm>Eliminar</rm>
+      <confrimrm>Estas seguro que quieres eliminar?</confrimrm>
+      <yes>Si</yes>
+      <no>No</no>
+      <rc_new>Nueva carpeta especial aquí.</rc_new>
+      <rc_rename>Renombrar Carpeta Especial.</rc_rename>
+      <downloadmorelangs>Descargar Mas Idiomas</downloadmorelangs>
+      <colaboratewithtranslate>Colabora con la Traducción</colaboratewithtranslate>
+      <helpindex>Índice de la ayuda</helpindex>
+      <about>Acerca de...</about>
+      <backtomenu>Volver a la pantalla principal</backtomenu>
+      <!-- 
+        Hola traductores! pueden tomar este espacio para darse credito
+        a si mismos por el trabajo de traducción :D
+        -->
+      <abouttext>
+        Special Folders (ConGenerator)
+        Versión 2.0 (Relase 2)
+        by TheBITLINK
+        Powered by MahApps.Metro
+
+        Este software es de libre distribución (y de código abierto!) Puedes hacer lo que quieras 
+        con el (y su código) siempre y cuando esté dentro de las posibilidades de la licensia GPL Versión 3.
+
+        http://cg.thebitlink.com/
+        http://github.com/TheBITLINK/SpecialFolders
+      </abouttext>
+    </mesages>
+  </data>
+</tbl>

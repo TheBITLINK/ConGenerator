@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="ConGenerator.SPFHeader"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             Height="24" d:DesignWidth="300">
+    <UserControl.Resources>
+        <ResourceDictionary>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <UserControl.DataContext>
+        <Binding x:Name="lang" Source="{StaticResource thislang}"/>
+    </UserControl.DataContext>
+    <Grid Background="#FFBFBFBF" Margin="-5,-2,0,-2">
+        <Label Content="{Binding XPath=/tbl/data/mesages/id}" HorizontalAlignment="Left" Height="24" Margin="10,0,0,0" VerticalAlignment="Top" Width="27"/>
+        <Label Content="{Binding XPath=/tbl/data/mesages/name}" HorizontalAlignment="Left" Height="24" Margin="42,0,0,0" VerticalAlignment="Top" Width="278"/>
+        <Label Content="{Binding XPath=/tbl/data/mesages/actions}" HorizontalAlignment="Right" Height="24" VerticalAlignment="Top" Width="260" HorizontalContentAlignment="Right"/>
+    </Grid>
+</UserControl>
